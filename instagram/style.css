@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.instagram-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#celular img {
+    height: 39em;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0.5em;
+    padding: 1.3em;
+    width: 380px;
+    border: solid 1px rgb(233, 220, 220);
+}
+
+.conta p {
+    font-size: 14px;
+}
+
+.img-perfil {
+    width: 100px;
+    border-radius: 50%;
+    margin: 1.2em;
+}
+
+.button-login {
+    display: flex;
+    align-items: center;
+    background-color: #4c8ec4;
+    color: white;
+    padding: 0.4em 1.6em;
+    height: 1.6em;
+    font-size: medium;
+    border-radius: 0.25em;
+    font-weight: 700;
+    border: none;
+    margin: 0.5em;
+}
+
+.alternar-conta {
+    margin: 1.3em;
+}
+
+.download-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8em;
+}
+
+.apps {
+    display: flex;
+    font-size: 14px;
+    padding: 0.8em;
+}
+
+.apps img {
+    width: 10em;
+    padding: 5px;
+}
+
+.blue-text {
+    color: #4c8ec4;
+    font-weight: 900;
+}
+
+
+
+@media (max-width: 640px) {
+    #celular {
+        display: none;
+    }
+
+    .instagram-logo {
+        width: 170px;
+    }
+
+    .button-login {
+        font-size: 14px;
+    }
+
+    .img-perfil {
+        width: 80px;
+    }
+
+    .conta {
+        width: 90%;
+    }
+
+    .conta p, span{
+        font-size: 12px;
+    }
+}
